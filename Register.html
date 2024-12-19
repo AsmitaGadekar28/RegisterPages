@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Register Page</title>
+</head>
+<body>
+<style>
+       body{
+        background-color: acqa ;
+        padding-top: 50px;
+        padding-bottom: 100px;
+        padding-left: 300px;
+        font-size: 24px; 
+        margin: 50px;
+        padding-right:100px;
+        }
+        input{
+           border-Style: double;
+           border-color: black;
+           background-color: white;
+           text-decoration: black;
+        }
+        form{
+            background-color: rgb(122, 73, 73);  
+            padding-top: 50px;
+            padding-bottom: 30px;
+            padding-left: 100px; 
+            width: 700px;
+            height: 1000px;     
+         }
+        button{
+           border-style: double;
+           font-size:20px;
+           width:100px;
+           height:35px;
+           cursor: pointer;
+           background-color: skyblue;
+           margin: 80px;
+           text-align:center;
+           justify-content:center;
+       
+        }
+       
+</style>
+<form action="regform" method="post">
+<h1>Registration Form</h1>
+<label>First name</label>
+<input type="text" placeholder="Enter your fname" name="fname" required >
+<br><br>
+<label>Last name</label>
+<input type="text" placeholder="Enter your lname" name="lname" required>
+<br><br>
+<label>Email</label>
+<input type="email" placeholder="Enter your email" name="email" required>
+<br><br>
+<label>Mobile Number</label>
+<input type="number" placeholder="Enter your MobNum" name="Number" required>
+<br><br>
+<label>Address</label>
+<input type="textarea" placeholder="Enter your address" name="address">
+<br><br>
+<label>Gender</label>
+<input type="radio"  name="gender" value="male">Male
+<input type="radio"  name="gender" value="Female">female
+<br><br>
+<label>Date Of Birth</label>
+<input type="Date" placeholder="Enter your DOB" name="DOB">
+<br><br>
+<label>City</label>
+<input type="city" placeholder="Enter your city" name="city">
+<br><br>
+<label>State</label>
+<input type="state" placeholder="Enter your state" name="state">
+<br><br>
+<label>Country</label>
+<input type="dropdown" placeholder="Enter your country" name="country">
+<br><br>
+<label>Age</label>
+<input type="number" placeholder="Enter your age" name="age">
+<br><br>
+<label>Degree</label>
+<input type="text" placeholder="Enter your degree" name="degree">
+<br><br>
+<label>Passing Year</label>
+<input type="date" placeholder="Enter your Passyear" name="Passyear">
+<br><br>
+<label>Password</label>
+<input type="password" placeholder="Enter your password" name="pass" required>
+<br><br>
+ <button type="Submit"><b>Submit</b></button> 
+</form>
+</body>
+</html>
